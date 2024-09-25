@@ -43,7 +43,7 @@ const TodoList = () => {
   };
 
   return (
-    <div className="todo-list" style={{ margin: 24, padding: 24, border: "3px solid #ccc", width: 500 }}>
+    <div className="todo-list" style={{ margin: 24, padding: 24, border: "3px solid #ccc", width: 500, textAlign: "center"  }}>
       <h2>Todo List</h2>
       <div className="input-group">
         <input
