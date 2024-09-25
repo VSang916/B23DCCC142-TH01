@@ -9,7 +9,7 @@ const ImageList = ({ images }) => {
           key={image.id}
           src={image.webformatURL}
           alt={image.tags}
-          style={{ width: "175px", height: "auto", margin: "5px" }}
+          style={{ width: "50%", height: "175px", borderRadius:"10px" }}
         />
       ))}
     </div>
